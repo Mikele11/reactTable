@@ -1,0 +1,64 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+.table {
+  display: table;
+  margin-top: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.table>div:nth-child(1){
+  background: lightgray;
+}
+.tablecell {
+  display: table-cell;
+  padding: 5px;
+  border: 1px solid lightgray;
+  text-align: center;
+
+}
+.tableRow:nth-child(2n+1) {
+  background: #f0f0f0; 
+} 
+form {
+  background: gainsboro;
+  border-radius: 30px;
+  width: 300px;
+  padding-top: 10px;
+  height: auto;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.invalid {
+  border: 1px solid red !important;
+}
+.addForm {
+  margin-top: 10px;
+  margin-left: 34%;
+}
+.form-group:last-child {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.tableWrapper {
+  margin-top: 50px;
+}
+.messErr {
+  border-radius: 6px;
+  background: #da79a4;
+  padding: 3px;
+}
